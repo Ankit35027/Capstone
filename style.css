@@ -1,0 +1,485 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: black;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5vw;
+    margin: 1vw;
+    line-height: 0;
+}
+.logo{
+    color: white;
+    font-family: "Staatliches", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 1vw;
+    font-size: 2vw;
+    font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.content{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vw;
+    font-size: 10vw;
+    line-height: 0;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.mainimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img2{
+    height: 70vh;
+    width:95vw;
+    border-radius: 2vw;
+}
+.v1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgcontent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10vw;
+    gap: 3vw;
+}
+p{
+    color: white;
+}
+.a{
+    border-radius: 2vw;
+    line-height: 0;
+}
+.img{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 2vw;
+
+}
+.message{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+#email{
+    height: 4.5vh;
+    width: 30vw;
+    border-radius: 1vw;
+}
+button{
+    font-size: 3.5vh;
+    background-color: red;
+    border-radius: 0.7vw;
+    border: none;
+    cursor: pointer;
+}
+.icon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    border-radius: 2vw;
+    gap: 1vw;
+}
+.b{
+    width: 3vw;
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    padding: 2vw;
+    font-size: 3vw;
+
+}
+#right{
+    color: darkgray;
+    font-family: "Red Hat Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+input{
+
+    background-color: black;
+    box-shadow: none;
+    border-radius: 0.2vw;
+    width: 28vw;
+    height: 7vh;
+    margin: 1vw;
+    border: none;
+    border: 1px solid gray;
+    color: white;
+    font-size: 2vw;
+    
+}
+
+textarea{
+    background-color: black;
+    width: 58.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 1vw;
+    border: 1px solid gray;
+    color: white;
+    font-size: 2vw;
+}
+#contact{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw; 
+    width: 12vw;
+    font-family: "Inria Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#bt2{
+    margin: 1vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 25, 25);
+    cursor: pointer;
+    font-family: "Inria Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#contact:hover{
+    background-color: gray;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+}
+.c1{
+    text-align: center;
+    font-size: 4vw;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.p1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: "Plus Jakarta Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#reb{
+    color: white;
+    text-align: center;
+}
+.u{
+    color: gray;
+    font-size: 1.5vw;
+    font-family: "Inria Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.s{
+    font-size: 2vw;
+    font-family: "Inria Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.r{
+    color: white;
+    font-family: "Inria Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2vw;
+    padding: 10px;
+    border-radius: 7px;
+
+
+}
+input::placeholder{
+    padding-left: 1vw;
+    padding-top: 50px;
+
+    
+    font-size: 2vw;
+}
+textarea::placeholder{
+    padding-left: 1vw;
+ 
+    font-size: 2vw;
+}
+#email::placeholder{
+    font-size: 2vw;
+
+
+
+}
+#e1{
+    width: 58.5vw;
+}
+
+@media (max-width:600px) {
+    #img2{
+    height: 25vh;
+    width:95vw;
+    border-radius: 2vw;
+}
+p{
+    color:white;
+    font-size: 5v;
+}
+.img{
+    width: 25vw;
+    height: 10vh;
+    border-radius: 2vw;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vh;
+}
+#email{
+    height: 2.7vh;
+    width: 25vw;
+    border-radius: 1vw;
+    
+}
+button{
+    font-size: 2.5vh;
+    background-color: red;
+    border-radius: 2vw;
+}
+.message{
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+}
+#bt2{
+    margin: 1vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 25, 25);
+}
+input{
+    background-color: black;
+    box-shadow: none;
+    border-radius: 2vw;
+    width: 25vw;
+    height: 3vh;
+    margin: 1vw;
+    border: none;
+    border: 1px solid gray;
+    color: white;
+    
+}
+#e1{
+    width: 54vw;
+}
+.u{
+    color: gray;
+    font-size: 2.5vw;
+}
+.s{
+    font-size: 3vw;
+}
+.c1{
+    text-align: center;
+    font-size: 7vw;
+}
+.p1{
+    text-align: center;
+    font-size: 6vw;
+    
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    padding: 2vw;
+    font-size: 5vw;
+
+}
+#contact{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    width: auto;
+
+}
+#email::placeholder{
+    font-size: 2vw;
+}
+textarea{
+    background-color: black;
+    width: 54vw;
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 1vw;
+    border: 1px solid gray;
+    color: white;
+    font-size: 2vw;
+}
+}
+@media (min-width:601px) and (max-width:1350px) {
+    .mainimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #img2{
+    height: 50vh;
+    width:95vw;
+    border-radius: 2vw;
+}
+p{
+    color:white;
+    font-size: 5v;
+}
+.img{
+    width: 25vw;
+    height: 22vh;
+    border-radius: 2vw;
+}
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vh;
+}
+#email{
+    height: 2.7vh;
+    width: 25vw;
+    border-radius: 1vw;
+    
+}
+button{
+    font-size: 2.5vh;
+    background-color: red;
+    border-radius: 2vw;
+}
+.message{
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+}
+#bt2{
+    margin: 1vw;
+    height: 5vw;
+    font-size: 1.5vw;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(233, 25, 25);
+}
+input{
+    background-color: black;
+    box-shadow: none;
+    border-radius: 2vw;
+    width: 25vw;
+    height: 3vh;
+    margin: 1vw;
+    border: none;
+    border: 1px solid gray;
+    color: white;
+    
+}
+#e1{
+    width: 54vw;
+}
+.u{
+    color: gray;
+    font-size: 2.5vw;
+}
+.s{
+    font-size: 3vw;
+}
+.c1{
+    text-align: center;
+    font-size: 7vw;
+}
+.p1{
+    text-align: center;
+    font-size: 6vw;
+    
+}
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    padding: 2vw;
+    font-size: 5vw;
+
+}
+#contact{
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    font-size: 2vh;
+    width: auto;
+
+}
+#email::placeholder{
+    font-size: 2vw;
+}
+textarea{
+    background-color: black;
+    width: 54vw;
+    height: 10vw;
+    border-radius: 1vw;
+    margin: 1vw;
+    border: 1px solid gray;
+    color: white;
+    font-size: 2vw;
+}
+}
