@@ -75,7 +75,6 @@ p{
 .img{
     width: 25vw;
     height: 30vh;
-    border-radius: 2vw;
 
 }
 .message{
@@ -275,7 +274,6 @@ p{
 .img{
     width: 25vw;
     height: 10vh;
-    border-radius: 2vw;
 }
 .subscribe{
     display: flex;
@@ -385,10 +383,14 @@ p{
     color:white;
     font-size: 5v;
 }
+.nav a:hover{
+    background-color: rgb(212, 206, 206);
+    color: black;
+    font-weight: 800;
+}
 .img{
     width: 25vw;
     height: 22vh;
-    border-radius: 2vw;
 }
 .subscribe{
     display: flex;
